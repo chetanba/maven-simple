@@ -1,0 +1,5 @@
+pip install Appium-Python-Client
+pip install pytest
+
+py.test ios_simple.py
+py.test -n2 --boxed ios_simple.py
